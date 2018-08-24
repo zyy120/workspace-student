@@ -13,7 +13,7 @@ netty-producer工程测试单线程消息推送 与多线程推送dome 内容提
 |----|----
 |E-mail|13687097822@126.com
 
->netty-producer -- 运行工程
+>NettyMqService -- 运行工程
 >>MainServer --netty 启动
 >>> TcpClient -- 单线程启动
 >>>> ClientMsgSender 多线程消息推送
